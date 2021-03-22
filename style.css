@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+#headline {
+    position: sticky;
+    top: 100px;
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.outer-container div {
+    border: solid 4px green;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+}
+
+.outer-container {
+    position: relative;
+    background-color: blue;
+    height: 1600px;
+}
+
+.headline2 {
+    display: inline-block;
+    width: 500px;
+}
+
+.paragraph {
+    display: inline;
+}
